@@ -1,6 +1,6 @@
 Overall Code Structure corrently:
 
-Bhavrish and Antonio - ML Training and Implementation for heat map
+Bhavesh and Antonio - ML Training and Implementation for heat map
 Mariah - Front End using figma
 Melika - Back End using firebase
 
