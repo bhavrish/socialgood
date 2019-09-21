@@ -1,4 +1,4 @@
-Overall Code Structure corrently:
+Overall Code Structure currently:
 
 Bhavesh and Antonio - ML Training and Implementation for heat map
 Mariah - Front End using figma
