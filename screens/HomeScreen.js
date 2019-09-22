@@ -2,7 +2,7 @@ import * as WebBrowser from 'expo-web-browser';
 import React from 'react';
 import {View, Text, StyleSheet, Platform} from 'react-native';
 import Styles from 'react-native';
-import {MapView} from 'expo';
+import MapView from 'react-native-maps';
 import { MonoText } from '../components/StyledText';
 
 export default class HomeScreen extends React.Component {
@@ -31,9 +31,10 @@ export default class HomeScreen extends React.Component {
           style={{flex: 1}}
         />
       </View>
-    );
+    )
   }
 }
+
 
 const styles = StyleSheet.create({
   container: {
