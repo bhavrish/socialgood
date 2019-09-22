@@ -7,31 +7,27 @@ import { MonoText } from '../components/StyledText';
 
 export default class HomeScreen extends React.Component {
   
-  constructor(props) {
-    super(props);
-    this.state= {
-      region: {
-        latitude: 37.78825,
-        longitude: -122.4324,
-        latitudeDelta: .922,
-        longitudeDelta: .0421,
-
-      }
-    }
-  }
-
   render() {
     return (
-      <View style={Styles.container}>
-        <Text>Home Screen</Text>
+    //  <DefaultContainer>
+        <View style ={{
+          ...StyleSheet.absoluteFillObject,
+          justifyContent: 'flex-end',
+          alignItems: 'center',
+        }}>
         <MapView
-          initialRegion={this.state.region}
-          showsCompass={true}
-          rotateEnabled={false}
-          style={{flex: 1}}
+          style={{...StyleSheet.absoluteFillObject}}
+          initialRegion={{
+            latitude: 30.2672,
+            longitude: -97.7431,
+            latitudeDelta: 0.0922,
+            longitudeDelta: 0.0421,
+          }}
         />
-      </View>
-    )
+        </View>
+
+     /// </DefaultContainer>
+    );
   }
 }
 
